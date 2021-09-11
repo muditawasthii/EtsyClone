@@ -39,3 +39,5 @@ jane@vfxguy.net (Customer)
 123456
 ```
 
+## Author
+Mudit Awasthi
