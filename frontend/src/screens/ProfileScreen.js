@@ -67,7 +67,7 @@ const ProfileScreen = ({ location, history }) => {
         ) : (
           <Form onSubmit={submitHandler}>
             <Form.Group controlId='name'>
-              <Form.Label class="h5">Name</Form.Label>
+              <Form.Label class="h4">Name</Form.Label>
               <Form.Control
                 type='name'
                 placeholder='Enter name'
@@ -77,7 +77,7 @@ const ProfileScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='email'>
-              <Form.Label class="h5">Email Address</Form.Label>
+              <Form.Label class="h4">Email Address</Form.Label>
               <Form.Control
                 type='email'
                 placeholder='Enter email'
@@ -87,7 +87,7 @@ const ProfileScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='password'>
-              <Form.Label class="h5">Password</Form.Label>
+              <Form.Label class="h4">Password</Form.Label>
               <Form.Control
                 type='password'
                 placeholder='Enter password'
@@ -97,7 +97,7 @@ const ProfileScreen = ({ location, history }) => {
             </Form.Group>
 
             <Form.Group controlId='confirmPassword'>
-              <Form.Label class="h5">Confirm Password</Form.Label>
+              <Form.Label class="h4">Confirm Password</Form.Label>
               <Form.Control
                 type='password'
                 placeholder='Confirm password'
